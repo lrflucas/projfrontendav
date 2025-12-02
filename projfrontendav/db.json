@@ -1,0 +1,59 @@
+{
+  "carros": [
+    {
+      "id": "445d",
+      "marca": "Ford",
+      "modelo": "Ka SE",
+      "ano": 2019,
+      "cor": "Prata",
+      "preco": 45.5,
+      "quilometragem": 48,
+      "combustivel": "Flex",
+      "status": "disponível"
+    },
+    {
+      "id": "1f73",
+      "marca": "Honda",
+      "modelo": "Civic EXL",
+      "ano": 2021,
+      "cor": "Preto",
+      "preco": 135,
+      "quilometragem": 25,
+      "combustivel": "Gasolina",
+      "status": "vendido"
+    },
+    {
+      "id": "c650",
+      "marca": "Hyundai",
+      "modelo": "HB20 Vision",
+      "ano": 2022,
+      "cor": "Branco",
+      "preco": 72.99,
+      "quilometragem": 12.5,
+      "combustivel": "Flex",
+      "status": "vendido"
+    },
+    {
+      "id": "c83e",
+      "marca": "Chevrolet",
+      "modelo": "Onix Plus LT",
+      "ano": 2020,
+      "cor": "Vermelho",
+      "preco": 68,
+      "quilometragem": 35.2,
+      "combustivel": "Flex",
+      "status": "disponível"
+    },
+    {
+      "id": "583e",
+      "marca": "Jeep",
+      "modelo": "Renegade Longitude",
+      "ano": 2018,
+      "cor": "Verde",
+      "preco": 89.9,
+      "quilometragem": 65,
+      "combustivel": "Diesel",
+      "status": "disponível"
+    }
+  ]
+}

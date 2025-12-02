@@ -1,0 +1,45 @@
+.carCard {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px 0;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.carCard h3 {
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.carCard p {
+    margin-bottom: 5px;
+}
+
+.buttons {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.editBtn {
+    background-color: #ffc107;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+}
+
+.editBtn:hover {
+    background-color: #e0a800;
+}
+
+.deleteBtn {
+    background-color: #dc3545;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.deleteBtn:hover {
+    background-color: #c82333;
+}
