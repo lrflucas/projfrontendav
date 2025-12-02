@@ -27,7 +27,6 @@ const CadastrarCarro = () => {
             ...form,
             ano: Number(form.ano),
             preco: Number(form.preco),
-            // Trata quilometragem, garantindo que seja um número mesmo que vazia/zero
             quilometragem: Number(form.quilometragem) || 0, 
         };
 

@@ -37,7 +37,11 @@ input, select {
 }
 
 .container {
-  width: 90%;
+  width: 70%;
   max-width: 1200px;
   margin: 0 auto;
+  background-image: url(assets/e7eb555410e9f4ce1662121349c4084a.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }

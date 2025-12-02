@@ -38,6 +38,7 @@ const ListarCarro = () => {
 
     return (
         <div>
+            <br></br>
             <h1>Lista de carros</h1>
 
             <input placeholder="Buscar..." value={busca} onChange={e => setBusca(e.target.value)} />

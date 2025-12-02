@@ -6,11 +6,14 @@ import Dashboard from '../pages/Dashboard'
 import EditarCarro from '../pages/EditarCarro'
 import ListarCarro from '../pages/ListarCarro'
 import './App.css'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 function App() {
 
   return (
     <BrowserRouter>
+      <Header/>
       <Navbar />
 
       <Routes>
@@ -20,6 +23,8 @@ function App() {
         <Route path="/edit/:id" element={<EditarCarro />} />
         <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
+      
+      <Footer/>
     </BrowserRouter>
   )
 }
